@@ -1,0 +1,192 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  margin: auto;
+  max-width: 1134px;
+}
+
+.header-background {
+  background-color: white;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 62px;
+}
+
+.header-text {
+  font: 16px Segoe UI;
+}
+
+.header-button {
+  font: bold 13px Segoe UI;
+  color: white !important;
+  background-color: #ffa019;
+  padding: 13px 24px;
+  border-radius: 10px;
+}
+
+.menu-background {
+  background-color: white;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2);
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 62px;
+}
+
+.menu-text {
+  font: bold 30px Segoe UI;
+}
+
+.menu-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+}
+
+.menu-item-text {
+  font: 14px Segoe UI;
+  color: black !important;
+  margin-left: 41px;
+}
+
+.background {
+  background: linear-gradient(0deg,
+      rgba(0, 0, 0, 0.6) 100%,
+      rgba(0, 0, 0, 0.6) 100%),
+    url(../img/scooter-background.jpg) no-repeat center top / cover;
+  background-size: 100%;
+  margin-bottom: 2;
+}
+
+.background-sqare {
+  width: 100%;
+  height: 203px;
+  background: white;
+}
+
+.main {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 62px;
+  padding-top: 268px;
+  flex-direction: column;
+  padding-bottom: 261px;
+  margin-bottom: 261px;
+}
+
+.main-header-text-1 {
+  font: lighter 56px Segoe UI;
+  color: white;
+  margin-bottom: 16px;
+}
+
+.main-header-text-2 {
+  font: lighter 20px Segoe UI;
+  color: white;
+  text-align: center;
+  margin-bottom: 45px;
+}
+
+.main-header-button {
+  border-radius: 10px;
+  background: white;
+  font: bold 12px Segoe UI;
+  color: black;
+  text-align: center;
+  padding: 10px 32px;
+  margin-bottom: 261px;
+}
+
+.our-advantages-background {
+  background: white;
+}
+
+.our-advantages {
+  display: flex;
+  flex-direction: column;
+}
+
+.our-advantages-header {
+  font: lighter 34px Segoe UI;
+  margin-bottom: 164px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.our-advantages-arrows {
+  list-style-type: none;
+  display: flex;
+}
+
+.our-advantages-menu {
+  list-style-type: none;
+  display: flex;
+}
+
+.our-advantages-qual {
+  width: 159px;
+  margin-right: 131px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.our-advantages-deli {
+  width: 153px;
+  margin-right: 139px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.our-advantages-big {
+  width: 194px;
+  margin-right: 91px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.our-advantages-cons {
+  width: 176px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.our-advantages-image {
+  margin-bottom: 67px;
+}
+
+.our-advantages-text {
+  font: lighter 20px Segoe UI;
+  width: 194px;
+  text-align: center;
+}
+
+.arrow-left {
+  transform: rotate(180deg);
+  margin-right: 12px;
+}
+
+.link-text {
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  background-color: black;
+}
