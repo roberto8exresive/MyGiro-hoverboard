@@ -7,6 +7,15 @@
   max-width: 1134px;
 }
 
+.headers {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+  font: lighter 34px Segoe UI;
+  color: black;
+}
+
 .header-background {
   background-color: white;
 }
@@ -60,11 +69,9 @@
 }
 
 .background {
-  background: linear-gradient(
-      0deg,
+  background: linear-gradient(0deg,
       rgba(0, 0, 0, 0.6) 100%,
-      rgba(0, 0, 0, 0.6) 100%
-    ),
+      rgba(0, 0, 0, 0.6) 100%),
     url(../img/scooter-background.jpg) no-repeat center top / cover;
   background-size: 100%;
 }
@@ -109,22 +116,9 @@
   margin-bottom: 261px;
 }
 
-.our-advantages-background {
-  background: white;
-}
-
 .our-advantages {
   display: flex;
   flex-direction: column;
-}
-
-.our-advantages-header {
-  font: lighter 34px Segoe UI;
-  margin-bottom: 164px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: baseline;
 }
 
 .our-advantages-arrows {
@@ -135,6 +129,7 @@
 .our-advantages-menu {
   list-style-type: none;
   display: flex;
+  margin-top: 164px;
 }
 
 .our-advantages-qual {
@@ -179,20 +174,20 @@
   margin-bottom: 124px;
 }
 
-.about-us-background {
-  background: white;
-}
 .about-us {
   display: flex;
   flex-direction: column;
 }
-.about-us-header {
-  font: lighter 34px Segoe UI;
-  margin-bottom: 54px;
-}
+
 .about-us-text {
+  margin-top: 54px;
   font: lighter 20px Segoe UI;
   margin-bottom: 34px;
+}
+
+.about-us-text:last-child {
+  margin-top: 0;
+  margin-bottom: 70px;
 }
 
 .about-us-menu {
@@ -226,6 +221,7 @@
   height: 48px;
   text-align: justify;
 }
+
 .about-us-bottom-item {
   display: flex;
   align-items: center;
@@ -234,6 +230,7 @@
   margin-right: 16px;
   border: 1px solid white;
 }
+
 .about-us-bottom-link {
   display: flex;
   align-items: center;
@@ -242,11 +239,13 @@
   margin-right: 16px;
   background: white;
 }
+
 .about-us-bottom-item-text {
   margin-left: 31px;
   font: 14px Segoe UI;
   color: white;
 }
+
 .about-us-bottom-link-text {
   margin-left: auto;
   margin-right: auto;
@@ -254,22 +253,22 @@
   color: black;
 }
 
-.features-of-hoverboards-background {
-  background: white;
-}
 .features-of-hoverboards {
   padding-top: 65px;
   padding-bottom: 66px;
 }
+
 .features-of-hoverboards-header {
   font: lighter 34px Segoe UI;
 }
+
 .features-of-hoverboards-menu {
   display: flex;
   list-style-type: none;
   padding: 0;
   margin: 0;
 }
+
 .features-of-hoverboards-menu-item {
   width: 352px;
   font: lighter 20px Segoe UI;
@@ -280,23 +279,20 @@
   padding-top: 51px;
   padding-bottom: 56px;
 }
+
 .features-of-hoverboards-text {
   font: lighter 19.9px Segoe UI;
   text-align: justify;
 }
+
 .catalog-background {
   background: #fbfbfb;
 }
+
 .catalog {
   padding-top: 65px;
 }
-.catalog-header {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  font: lighter 34px Segoe UI;
-  color: black;
-}
+
 .catalog-menu {
   display: flex;
   justify-content: space-between;
@@ -305,33 +301,28 @@
   padding: 0;
   margin: 0;
 }
-.catalog-menu-item-fill {
+
+.catalog-menu-item-text {
   padding-bottom: 2px;
   display: flex;
   border-radius: 15px;
-  width: 52px;
   height: 31px;
-  background: #ffa019;
-  font: lighter 16px Segoe UI;
-  align-items: center;
-  justify-content: center;
-}
-.catalog-menu-item {
-  display: flex;
-  height: 31px;
+  padding-left: 13px;
+  padding-right: 13px;
+  background: rgb(rgba(0, 0, 0, 0), green, blue);
   font: lighter 16px Segoe UI;
   margin-left: 34px;
   align-items: center;
   justify-content: center;
-}
-.catalog-menu-item-fill-text {
-  font: lighter 16px Segoe UI;
-  color: white;
-}
-.catalog-menu-item-text {
-  font: lighter 16px Segoe UI;
   color: black;
 }
+
+.catalog-menu-item-text:hover {
+  transition: 0.1s;
+  color: white;
+  background: #ffa019;
+}
+
 .catalog-goods-menu {
   list-style-type: none;
   display: flex;
@@ -343,6 +334,7 @@
   padding-bottom: 61px;
   margin-right: 30px;
 }
+
 .catalog-goods-menu-items {
   display: flex;
   flex-wrap: wrap;
@@ -352,22 +344,28 @@
   background: white;
   box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.1);
 }
+
 .catalog-goods-items-img {
   width: 261px;
   height: 261px;
 }
+
 .img-1 {
   background: url(../img/s_2.jpg) no-repeat center top / cover;
 }
+
 .img-2 {
   background: url(../img/h_2.jpg) no-repeat center top / cover;
 }
+
 .img-3 {
   background: url(../img/e_3.jpg) no-repeat center top / cover;
 }
+
 .img-4 {
   background: url(../img/s_1.jpg) no-repeat center top / cover;
 }
+
 .catalog-goods-menu-items-name-background {
   margin-top: 37px;
   display: flex;
@@ -378,16 +376,48 @@
   align-items: center;
   border-radius: 0px 15px 15px 0px;
 }
+
 .catalog-goods-menu-items-name {
   font: normal 14px Segoe UI;
   color: white;
   margin-left: auto;
   margin-right: auto;
 }
+
 .catalog-goods-items-description {
+  max-width: 179px;
+  min-width: 150px;
+  min-height: 50px;
   font: lighter 16px Segoe UI;
   margin-left: 13px;
 }
+
+.catalog-goods-items-cost {
+  padding-top: 7px;
+  margin-left: 13px;
+  font: bold 20px Segoe UI;
+}
+
+.our-consultants {
+  padding-top: 96px;
+}
+
+.our-consultants-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+}
+
+.our-consultants-items {
+  max-width: 332px;
+  min-height: 180px;
+}
+
+.our-consultants-items-img-1 {
+  background: url(../img/1.png) no-repeat center top / cover;
+}
+
 .arrow-left {
   transform: rotate(180deg);
   margin-right: 12px;
@@ -399,5 +429,5 @@
 
 body {
   margin: 0;
-  background-color: black;
+  background: white;
 }
