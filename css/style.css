@@ -2,6 +2,20 @@
   box-sizing: border-box;
 }
 
+.arrow-left {
+  transform: rotate(180deg);
+  margin-right: 12px;
+}
+
+.link-text {
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  background: white;
+}
+
 .container {
   margin: auto;
   max-width: 1134px;
@@ -39,9 +53,12 @@
   border-radius: 10px;
 }
 
+.header-button:hover{
+  filter: brightness(95%);
+}
 .menu-background {
   background-color: white;
-  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.25);
 }
 
 .menu {
@@ -66,6 +83,10 @@
   font: 14px Segoe UI;
   color: black !important;
   margin-left: 41px;
+}
+
+.menu-item-text:hover {
+  text-shadow: 0px 0px 0px rgba(0, 0, 0, 0.637);
 }
 
 .background {
@@ -114,6 +135,10 @@
   text-align: center;
   padding: 10px 32px;
   margin-bottom: 261px;
+}
+
+.main-header-button:hover{
+  background: rgb(206, 206, 206);
 }
 
 .our-advantages {
@@ -231,6 +256,10 @@
   border: 1px solid white;
 }
 
+.about-us-bottom-item:hover{
+  background-color: #ffffff17;
+}
+
 .about-us-bottom-link {
   display: flex;
   align-items: center;
@@ -238,6 +267,11 @@
   height: 48px;
   margin-right: 16px;
   background: white;
+}
+
+.about-us-bottom-link:hover{
+  transition: 0.1s;
+  background: rgb(228, 228, 228);
 }
 
 .about-us-bottom-item-text {
@@ -345,6 +379,11 @@
   box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.1);
 }
 
+.catalog-goods-menu-items:hover{
+  cursor: pointer;
+  filter: brightness(90%);
+}
+
 .catalog-goods-items-img {
   width: 261px;
   height: 261px;
@@ -403,31 +442,47 @@
 }
 
 .our-consultants-menu {
+  margin-top: 94px;
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  list-style-type: none;
 }
 
 .our-consultants-items {
-  max-width: 332px;
-  min-height: 180px;
+  margin-right: 30px;
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  min-width: 330px;
+  max-width: 355px;
+  height: 180px;
+  flex-direction: row;
+  justify-content: flex-start;
 }
-
-.our-consultants-items-img-1 {
-  background: url(../img/1.png) no-repeat center top / cover;
+.our-consultants-item-name{
+  margin-top: 20px;
+  font: normal 20px Segoe UI;
+  margin-bottom: 6px;
 }
-
-.arrow-left {
-  transform: rotate(180deg);
-  margin-right: 12px;
+.our-consultants-item-description{
+  font: italic 12px Segoe UI;
+  margin-bottom: 30px;
 }
-
-.link-text {
-  text-decoration: none;
+.our-consultants-item-button{
+  width: 83px;
+  height: 30px;
+  border-radius: 15px;
+  padding-right: 13px;
+  padding-left: 14px;
+  padding-top: 8px;
+  padding-bottom: 9px;
+  background: #ffa019;
+  font: bold 10px Segoe UI;
+  margin-bottom: 6px;
 }
-
-body {
-  margin: 0;
-  background: white;
+.our-consultants-item-img{
+  margin-right: 30px;
+}
+.our-consultants-items-text{
+  display: flex;
+  flex-direction: column;
 }
