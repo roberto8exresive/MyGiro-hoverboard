@@ -1,488 +1,908 @@
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 .arrow-left {
-  transform: rotate(180deg);
-  margin-right: 12px;
+    transform: rotate(180deg);
+    margin-right: 12px;
 }
 
 .link-text {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 body {
-  margin: 0;
-  background: white;
+    margin: 0;
+    background: white;
 }
 
 .container {
-  margin: auto;
-  max-width: 1134px;
+    margin: auto;
+    max-width: 1134px;
 }
 
 .headers {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: baseline;
-  font: lighter 34px Segoe UI;
-  color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    font: lighter 34px Segoe UI;
+    color: black;
 }
 
 .header-background {
-  background-color: white;
+    background-color: white;
 }
 
 .header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 62px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 62px;
 }
 
 .header-text {
-  font: 16px Segoe UI;
+    font: 16px Segoe UI;
 }
 
 .header-button {
-  font: bold 13px Segoe UI;
-  color: white !important;
-  background-color: #ffa019;
-  padding: 13px 24px;
-  border-radius: 10px;
+    font: bold 13px Segoe UI;
+    color: white !important;
+    background-color: #ffa019;
+    padding: 13px 24px;
+    border-radius: 10px;
 }
 
-.header-button:hover{
-  filter: brightness(95%);
+.header-button:hover {
+    transition: 0.1s;
+    filter: brightness(110%);
 }
 .menu-background {
-  background-color: white;
-  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.25);
+    background-color: white;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.25);
 }
 
 .menu {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 62px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 62px;
 }
 
 .menu-text {
-  font: bold 30px Segoe UI;
+    font: bold 30px Segoe UI;
 }
 
 .menu-item {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
 }
 
 .menu-item-text {
-  font: 14px Segoe UI;
-  color: black !important;
-  margin-left: 41px;
+    font: 14px Segoe UI;
+    color: black !important;
+    margin-left: 41px;
 }
 
 .menu-item-text:hover {
-  text-shadow: 0px 0px 0px rgba(0, 0, 0, 0.637);
+    transition: 0.1s;
+    text-shadow: 0px 0px 0px rgba(0, 0, 0, 0.637);
 }
 
 .background {
-  background: linear-gradient(0deg,
-      rgba(0, 0, 0, 0.6) 100%,
-      rgba(0, 0, 0, 0.6) 100%),
-    url(../img/scooter-background.jpg) no-repeat center top / cover;
-  background-size: 100%;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.6) 100%, rgba(0, 0, 0, 0.6) 100%),
+        url(../img/scooter-background.jpg) no-repeat center top / cover;
+    background-size: 100%;
 }
 
 .background-sqare {
-  width: 100%;
-  height: 203px;
-  background: white;
+    width: 100%;
+    height: 203px;
+    background: white;
 }
 
 .main {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  height: 62px;
-  padding-top: 20%;
-  flex-direction: column;
-  padding-bottom: 20%;
-  margin-bottom: 15%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 62px;
+    padding-top: 20%;
+    flex-direction: column;
+    padding-bottom: 20%;
+    margin-bottom: 15%;
 }
 
 .main-header-text-1 {
-  font: lighter 56px Segoe UI;
-  color: white;
-  margin-bottom: 16px;
+    font: lighter 56px Segoe UI;
+    color: white;
+    margin-bottom: 16px;
 }
 
 .main-header-text-2 {
-  font: lighter 20px Segoe UI;
-  color: white;
-  text-align: center;
-  margin-bottom: 45px;
+    font: lighter 20px Segoe UI;
+    color: white;
+    text-align: center;
+    margin-bottom: 45px;
 }
 
 .main-header-button {
-  border-radius: 10px;
-  background: white;
-  font: bold 12px Segoe UI;
-  color: black;
-  text-align: center;
-  padding: 10px 32px;
-  margin-bottom: 261px;
+    border-radius: 10px;
+    background: white;
+    font: bold 12px Segoe UI;
+    color: black;
+    text-align: center;
+    padding: 10px 32px;
+    margin-bottom: 261px;
 }
 
-.main-header-button:hover{
-  background: rgb(206, 206, 206);
+.main-header-button:hover {
+    transition: 0.1s;
+    background: rgb(206, 206, 206);
 }
 
 .our-advantages {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 
 .our-advantages-arrows {
-  list-style-type: none;
-  display: flex;
+    list-style-type: none;
+    display: flex;
 }
 
 .our-advantages-menu {
-  list-style-type: none;
-  display: flex;
-  margin-top: 164px;
+    list-style-type: none;
+    display: flex;
+    margin-top: 164px;
 }
 
 .our-advantages-qual {
-  width: 159px;
-  margin-right: 131px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+    margin-right: 131px;
 }
 
 .our-advantages-deli {
-  width: 153px;
-  margin-right: 139px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+    margin-right: 139px;
 }
 
 .our-advantages-big {
-  width: 194px;
-  margin-right: 91px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+    margin-right: 91px;
 }
-
-.our-advantages-cons {
-  width: 176px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.our-advantages-char {
+    max-width: 194px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .our-advantages-image {
-  margin-bottom: 67px;
+    margin-bottom: 67px;
 }
 
 .our-advantages-text {
-  font: lighter 20px Segoe UI;
-  width: 194px;
-  text-align: center;
-  margin-bottom: 124px;
+    font: lighter 20px Segoe UI;
+    width: 194px;
+    text-align: center;
+    margin-bottom: 124px;
 }
 
 .about-us {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 
 .about-us-text {
-  margin-top: 54px;
-  font: lighter 20px Segoe UI;
-  margin-bottom: 34px;
+    margin-top: 54px;
+    font: lighter 20px Segoe UI;
+    margin-bottom: 34px;
 }
 
 .about-us-text:last-child {
-  margin-top: 0;
-  margin-bottom: 70px;
+    margin-top: 0;
+    margin-bottom: 70px;
 }
 
 .about-us-menu {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
 
 .about-us-bottom-background {
-  background: #ffa019;
-  width: 100%;
-  height: 94px;
+    background: #ffa019;
+    width: 100%;
+    height: 94px;
 }
 
 .about-us-bottom {
-  display: flex;
-  flex-direction: row;
-  padding-top: 23px;
-  padding-bottom: 23px;
-  justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    padding-top: 23px;
+    padding-bottom: 23px;
+    justify-content: space-between;
 }
 
 .about-us-bottom-text {
-  font: normal 18px Segoe UI;
-  text-align: left;
-  color: white;
-  width: 275px;
-  height: 48px;
-  text-align: justify;
+    font: normal 18px Segoe UI;
+    text-align: left;
+    color: white;
+    width: 275px;
+    height: 48px;
+    text-align: justify;
 }
 
 .about-us-bottom-item {
-  display: flex;
-  align-items: center;
-  width: 240px;
-  height: 48px;
-  margin-right: 16px;
-  border: 1px solid white;
+    display: flex;
+    align-items: center;
+    width: 240px;
+    height: 48px;
+    margin-right: 16px;
+    border: 1px solid white;
 }
 
-.about-us-bottom-item:hover{
-  background-color: #ffffff17;
+.about-us-bottom-item:hover {
+    transition: 0.1s;
+    background-color: #ffffff17;
 }
 
 .about-us-bottom-link {
-  display: flex;
-  align-items: center;
-  width: 240px;
-  height: 48px;
-  margin-right: 16px;
-  background: white;
+    display: flex;
+    align-items: center;
+    width: 240px;
+    height: 48px;
+    margin-right: 16px;
+    background: white;
 }
 
-.about-us-bottom-link:hover{
-  transition: 0.1s;
-  background: rgb(228, 228, 228);
+.about-us-bottom-link:hover {
+    transition: 0.1s;
+    background: rgb(228, 228, 228);
 }
 
 .about-us-bottom-item-text {
-  margin-left: 31px;
-  font: 14px Segoe UI;
-  color: white;
+    margin-left: 31px;
+    font: 14px Segoe UI;
+    color: white;
 }
 
 .about-us-bottom-link-text {
-  margin-left: auto;
-  margin-right: auto;
-  font: bold 14px Segoe UI;
-  color: black;
+    margin-left: auto;
+    margin-right: auto;
+    font: bold 14px Segoe UI;
+    color: black;
 }
 
 .features-of-hoverboards {
-  padding-top: 65px;
-  padding-bottom: 66px;
+    padding-top: 65px;
+    padding-bottom: 66px;
 }
 
 .features-of-hoverboards-header {
-  font: lighter 34px Segoe UI;
+    font: lighter 34px Segoe UI;
 }
 
 .features-of-hoverboards-menu {
-  display: flex;
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
 
 .features-of-hoverboards-menu-item {
-  width: 352px;
-  font: lighter 20px Segoe UI;
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-  margin-right: 36px;
-  padding-top: 51px;
-  padding-bottom: 56px;
+    width: 352px;
+    font: lighter 20px Segoe UI;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-right: 36px;
+    padding-top: 51px;
+    padding-bottom: 56px;
 }
 
 .features-of-hoverboards-text {
-  font: lighter 19.9px Segoe UI;
-  text-align: justify;
+    font: lighter 19.9px Segoe UI;
+    text-align: justify;
 }
 
 .catalog-background {
-  background: #fbfbfb;
+    background: #fbfbfb;
 }
 
 .catalog {
-  padding-top: 65px;
+    padding-top: 65px;
 }
 
 .catalog-menu {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
 
 .catalog-menu-item-text {
-  padding-bottom: 2px;
-  display: flex;
-  border-radius: 15px;
-  height: 31px;
-  padding-left: 13px;
-  padding-right: 13px;
-  background: rgb(rgba(0, 0, 0, 0), green, blue);
-  font: lighter 16px Segoe UI;
-  margin-left: 34px;
-  align-items: center;
-  justify-content: center;
-  color: black;
+    padding-bottom: 2px;
+    display: flex;
+    border-radius: 15px;
+    height: 31px;
+    padding-left: 13px;
+    padding-right: 13px;
+    background: rgb(rgba(0, 0, 0, 0), green, blue);
+    font: lighter 16px Segoe UI;
+    margin-left: 34px;
+    align-items: center;
+    justify-content: center;
+    color: black;
 }
 
 .catalog-menu-item-text:hover {
-  transition: 0.1s;
-  color: white;
-  background: #ffa019;
+    transition: 0.1s;
+    color: white;
+    background: #ffa019;
 }
 
 .catalog-goods-menu {
-  list-style-type: none;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0;
-  margin: 0;
-  padding-top: 61px;
-  padding-bottom: 61px;
-  margin-right: 30px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    padding-top: 61px;
+    padding-bottom: 61px;
+    margin-right: 30px;
 }
 
 .catalog-goods-menu-items {
-  display: flex;
-  flex-wrap: wrap;
-  align-content: flex-start;
-  width: 261px;
-  height: 450px;
-  background: white;
-  box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    width: 261px;
+    height: 450px;
+    background: white;
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.1);
 }
 
-.catalog-goods-menu-items:hover{
-  cursor: pointer;
-  filter: brightness(90%);
+.catalog-goods-menu-items:hover {
+    transition: 0.1s;
+    cursor: pointer;
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.185);
 }
 
 .catalog-goods-items-img {
-  width: 261px;
-  height: 261px;
+    width: 261px;
+    height: 261px;
 }
 
 .img-1 {
-  background: url(../img/s_2.jpg) no-repeat center top / cover;
+    background: url(../img/s_2.jpg) no-repeat center top / cover;
 }
 
 .img-2 {
-  background: url(../img/h_2.jpg) no-repeat center top / cover;
+    background: url(../img/h_2.jpg) no-repeat center top / cover;
 }
 
 .img-3 {
-  background: url(../img/e_3.jpg) no-repeat center top / cover;
+    background: url(../img/e_3.jpg) no-repeat center top / cover;
 }
 
 .img-4 {
-  background: url(../img/s_1.jpg) no-repeat center top / cover;
+    background: url(../img/s_1.jpg) no-repeat center top / cover;
 }
 
 .catalog-goods-menu-items-name-background {
-  margin-top: 37px;
-  display: flex;
-  height: 29px;
-  padding-right: 12px;
-  padding-left: 13px;
-  background: #ffa019;
-  align-items: center;
-  border-radius: 0px 15px 15px 0px;
+    margin-top: 37px;
+    display: flex;
+    height: 29px;
+    padding-right: 12px;
+    padding-left: 13px;
+    background: #ffa019;
+    align-items: center;
+    border-radius: 0px 15px 15px 0px;
 }
 
 .catalog-goods-menu-items-name {
-  font: normal 14px Segoe UI;
-  color: white;
-  margin-left: auto;
-  margin-right: auto;
+    font: normal 14px Segoe UI;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .catalog-goods-items-description {
-  max-width: 179px;
-  min-width: 150px;
-  min-height: 50px;
-  font: lighter 16px Segoe UI;
-  margin-left: 13px;
+    max-width: 179px;
+    min-width: 150px;
+    min-height: 50px;
+    font: lighter 16px Segoe UI;
+    margin-left: 13px;
 }
 
 .catalog-goods-items-cost {
-  padding-top: 7px;
-  margin-left: 13px;
-  font: bold 20px Segoe UI;
+    padding-top: 7px;
+    margin-left: 13px;
+    font: bold 20px Segoe UI;
 }
 
 .our-consultants {
-  padding-top: 96px;
+    padding-top: 96px;
 }
 
 .our-consultants-menu {
-  margin-top: 94px;
-  display: flex;
-  align-items: center;
+    margin-top: 94px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 141px;
 }
 
 .our-consultants-items {
-  margin-right: 30px;
-  display: flex;
-  list-style-type: none;
-  padding: 0;
-  min-width: 330px;
-  max-width: 355px;
-  height: 180px;
-  flex-direction: row;
-  justify-content: flex-start;
+    margin-right: 30px;
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    min-width: 330px;
+    max-width: 355px;
+    height: 180px;
+    flex-direction: row;
+    justify-content: flex-start;
 }
-.our-consultants-item-name{
-  margin-top: 20px;
-  font: normal 20px Segoe UI;
-  margin-bottom: 6px;
+.our-consultants-item-name {
+    margin-top: 20px;
+    font: normal 20px Segoe UI;
+    margin-bottom: 6px;
 }
-.our-consultants-item-description{
-  font: italic 12px Segoe UI;
-  margin-bottom: 30px;
+.our-consultants-item-description {
+    font: italic 12px Segoe UI;
+    margin-bottom: 30px;
 }
-.our-consultants-item-button{
-  width: 83px;
-  height: 30px;
-  border-radius: 15px;
-  padding-right: 13px;
-  padding-left: 14px;
-  padding-top: 8px;
-  padding-bottom: 9px;
-  background: #ffa019;
-  font: bold 10px Segoe UI;
-  margin-bottom: 6px;
+.our-consultants-item-button {
+    width: 83px;
+    height: 30px;
+    border-radius: 15px;
+    padding-right: 13px;
+    padding-left: 14px;
+    padding-top: 8px;
+    padding-bottom: 9px;
+    background: #ffa019;
+    font: bold 10px Segoe UI;
+    margin-bottom: 6px;
 }
-.our-consultants-item-img{
-  margin-right: 30px;
+.our-consultants-item-button:hover {
+    transition: 0.1s;
+    cursor: pointer;
+    filter: brightness(110%);
 }
-.our-consultants-items-text{
-  display: flex;
-  flex-direction: column;
+.our-consultants-item-img {
+    margin-right: 30px;
+}
+.our-consultants-items-text {
+    display: flex;
+    flex-direction: column;
+}
+.brands {
+    display: flex;
+    background: #fbfbfb;
+    height: 194px;
+    margin-bottom: 83px;
+    flex-direction: column;
+    justify-content: center;
+}
+.brands-menu {
+    margin-left: 73px;
+    margin-right: 74px;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+.brands-text {
+    font: bold 50px Segoe UI;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #9b9b9b;
+}
+.brands-text:hover {
+    transition: 0.1s;
+    color: #9b9b9b;
+    text-shadow: 2px 2px 0px #9b9b9b4d;
+}
+.usefull-information {
+    margin-bottom: 57px;
+    flex-direction: column;
+    display: flex;
+}
+.usefull-information-menu {
+    margin-top: 74px;
+    padding: 0;
+    margin-right: 27px;
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+    align-items: center;
+}
+.usefull-information-image {
+    height: 263px;
+    width: 263px;
+}
+.usefull-information-image:hover {
+    transition: 0.1s;
+    filter: brightness(110%);
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.11);
+}
+.usefull-information-text {
+    width: 100%;
+    color: white;
+    font: bold 18px Segoe UI;
+    text-align: center;
+    line-height: 30px;
+}
+.usefull-image-1 {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4) 100%, rgba(0, 0, 0, 0.4) 100%),
+        url(../img/1.jpg) no-repeat center top / cover;
+}
+.usefull-image-2 {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4) 100%, rgba(0, 0, 0, 0.4) 100%),
+        url(../img/2.jpg) no-repeat center top / cover;
+}
+.usefull-image-3 {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4) 100%, rgba(0, 0, 0, 0.4) 100%),
+        url(../img/3.jpg) no-repeat center top / cover;
+}
+.usefull-image-4 {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4) 100%, rgba(0, 0, 0, 0.4) 100%),
+        url(../img/4.jpg) no-repeat center top / cover;
+}
+.footer {
+    background: #fbfbfb;
+}
+.footer-texts {
+    flex-direction: row;
+    padding-top: 146px;
+    display: flex;
+    padding-bottom: 96px;
+    justify-content: space-between;
+}
+.footer-text {
+    flex-direction: column;
+    display: flex;
+}
+.footer-text-1 {
+    margin-right: 251px;
+    margin-bottom: 21px;
+    font: normal 14px Segoe UI;
+    color: #8191a6;
+    display: flex;
+    text-align: justify;
+    max-width: 330px;
+    max-height: 57px;
+}
+.footer-text-1:last-child {
+    margin-top: 52px;
+    font: normal 14px Segoe UI;
+    color: #8191a6;
+    display: flex;
+    text-align: justify;
+    max-width: 330px;
+    max-height: 57px;
+}
+.footer-bold-text-2 {
+    font: bold 14px Segoe UI;
+    margin-bottom: 15px;
+}
+.footer-text-2 {
+    font: normal 14px Segoe UI;
+    color: #8191a6;
+    display: flex;
+    text-align: justify;
+    max-width: 158px;
+    min-width: 135px;
+}
+@media (max-width: 1160px) {
+    .container {
+        margin: auto;
+        max-width: 937px;
+    }
+    .menu-text {
+        font: bold 25px Segoe UI;
+    }
+    .menu-item-text {
+        font: 12px Segoe UI;
+    }
+    .main {
+        padding-top: 15%;
+        padding-bottom: 35%;
+    }
+    .our-advantages-big {
+        margin-right: 40px;
+    }
+    .our-advantages-cons {
+        margin-right: 40px;
+    }
+    .our-advantages-deli {
+        margin-right: 40px;
+    }
+    .our-advantages-qual {
+        margin-right: 40px;
+    }
+    .about-us-bottom-item {
+        width: 180px;
+    }
+    .catalog-goods-menu {
+        flex-wrap: wrap;
+        width: 75%;
+        height: 75%;
+    }
+    .catalog-goods-menu-items {
+        margin-bottom: 10px;
+    }
+    .our-consultants-items {
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+    .brands {
+        height: 250px;
+    }
+    .brands-menu {
+        flex-wrap: wrap;
+    }
+    .usefull-information-menu {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer-text-1 {
+        margin-right: 100px;
+    }
+    .features-of-hoverboards-menu-item {
+        margin-right: 20px;
+    }
+}
+@media (max-width: 965px) {
+    .container {
+        margin: auto;
+        max-width: 760px;
+    }
+    .menu-text {
+        font: bold 25px Segoe UI;
+    }
+    .menu-item-text {
+        margin-left: 25px;
+        font: 12px Segoe UI;
+    }
+    .main {
+        padding-top: 10%;
+        padding-bottom: 35%;
+    }
+    .our-advantages-big {
+        margin-right: 20px;
+    }
+    .our-advantages-cons {
+        margin-right: 20px;
+    }
+    .our-advantages-deli {
+        margin-right: 20px;
+    }
+    .our-advantages-qual {
+        margin-right: 20px;
+    }
+    .about-us-bottom-item {
+        width: 140px;
+    }
+    .our-advantages-menu {
+        flex-wrap: wrap;
+        max-width: 20%;
+    }
+    .about-us-bottom-text {
+        font: normal 16px Segoe UI;
+        width: 250px;
+    }
+    .about-us-bottom-item {
+        width: 150px;
+    }
+    .about-us-bottom-link {
+        width: 150px;
+    }
+    .catalog-goods-menu {
+        flex-wrap: wrap;
+        width: 75%;
+        height: 75%;
+    }
+    .catalog-goods-menu-items {
+        margin-bottom: 10px;
+    }
+    .our-consultants-menu {
+        flex-wrap: wrap;
+    }
+    .our-consultants-items {
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+    .brands {
+        height: 250px;
+    }
+    .brands-menu {
+        flex-wrap: wrap;
+    }
+    .usefull-information-menu {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer-text-1 {
+        margin-right: 50px;
+    }
+    .features-of-hoverboards-menu-item {
+        margin-right: 10px;
+    }
+}
+@media (max-width: 826px) {
+    .container {
+        margin: auto;
+        max-width: 690px;
+    }
+    .menu-text {
+        font: bold 20px Segoe UI;
+    }
+    .menu-item-text {
+        margin-left: 20px;
+        font: 10px Segoe UI;
+    }
+    .main {
+        padding-top: 8%;
+        padding-bottom: 35%;
+    }
+    .our-advantages-big {
+        margin-right: 10px;
+    }
+    .our-advantages-cons {
+        margin-right: 10px;
+    }
+    .our-advantages-deli {
+        margin-right: 10px;
+    }
+    .our-advantages-qual {
+        margin-right: 10px;
+    }
+    .about-us-bottom-item {
+        width: 90px;
+    }
+    .our-advantages-menu {
+        flex-wrap: wrap;
+        max-width: 20%;
+    }
+    .about-us-bottom-text {
+        font: normal 16px Segoe UI;
+        width: 250px;
+    }
+    .about-us-bottom-item {
+        width: 120px;
+    }
+    .about-us-bottom-link {
+        width: 120px;
+    }
+    .catalog-goods-menu {
+        flex-wrap: wrap;
+        width: 75%;
+        height: 75%;
+    }
+    .catalog-goods-menu-items {
+        margin-bottom: 10px;
+    }
+    .our-consultants-menu {
+        flex-wrap: wrap;
+    }
+    .our-consultants-items {
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+    .brands {
+        height: 250px;
+    }
+    .brands-menu {
+        flex-wrap: wrap;
+    }
+    .usefull-information-menu {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer-text-1 {
+        margin-right: 10px;
+    }
+    .features-of-hoverboards-menu-item {
+        margin-right: 10px;
+    }
+    .footer-bold-text-2 {
+        max-width: 130px;
+    }
+    .footer-text-2 {
+        max-width: 130px;
+    }
+}
+@media (max-width: 723px) {
+    .container {
+        margin: auto;
+        max-width: 600px;
+    }
+    .menu-text {
+        font: bold 18px Segoe UI;
+    }
+    .menu-item-text {
+        margin-left: 18px;
+        font: 10px Segoe UI;
+    }
+    .main {
+        padding-top: 5%;
+        padding-bottom: 38%;
+    }
+    .our-advantages-big {
+        margin-right: 10px;
+    }
+    .our-advantages-cons {
+        margin-right: 10px;
+    }
+    .our-advantages-deli {
+        margin-right: 10px;
+    }
+    .our-advantages-qual {
+        margin-right: 10px;
+    }
+    .about-us-bottom-item {
+        width: 90px;
+    }
+    .our-advantages-menu {
+        flex-wrap: wrap;
+        max-width: 20%;
+    }
+    .about-us-bottom-text {
+        font: normal 14px Segoe UI;
+        width: 220px;
+    }
+    .about-us-bottom-item {
+        width: 100px;
+    }
+    .about-us-bottom-link {
+        width: 120px;
+    }
+    .catalog-goods-menu {
+        flex-wrap: wrap;
+        width: 75%;
+        height: 75%;
+    }
+    .catalog-goods-menu-items {
+        margin-bottom: 10px;
+    }
+    .our-consultants-menu {
+        flex-wrap: wrap;
+    }
+    .our-consultants-items {
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+    .brands {
+        height: 250px;
+    }
+    .brands-menu {
+        flex-wrap: wrap;
+    }
+    .usefull-information-menu {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer-text-1 {
+        margin-right: 2px;
+        margin-bottom: 60px;
+    }
+    .features-of-hoverboards-menu-item {
+        margin-right: 2px;
+    }
+    .footer-bold-text-2 {
+        max-width: 100px;
+    }
+    .footer-text-2 {
+        max-width: 100px;
+    }
 }
